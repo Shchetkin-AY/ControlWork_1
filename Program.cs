@@ -1,7 +1,7 @@
 ﻿string[] arr = new string[6]{"1234", "1567", "-2", "computer science", "1", "ABS"};
 string[] result = new string[arr.Length];
 
-void Sercher(string[] arr, string[] result)
+void Searcher(string[] arr, string[] result)
 {
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
@@ -22,5 +22,5 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-Sercher(arr, result);
+Searcher(arr, result);
 PrintArray(result);
